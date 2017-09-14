@@ -3,24 +3,21 @@
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
 ## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+ - Optionally place an image in `/img`
+ - Create sections to describe your services. Use the following as an example:
 
 ```txt
 ---
 layout: default
-img: ipad.png
-category: Services
-title: The service title
+title: The section title
+homepage: 1
+slug: first
+navigation: First Section
 ---
-The description of this service
+The text of this section. 
 ```
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
 
 ===
 
@@ -32,4 +29,4 @@ The contents of this repository are licensed under the [Apache
 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Version
-1.0.1
+1.0.0
