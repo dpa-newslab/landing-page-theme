@@ -17,7 +17,7 @@
             {% assign sections=site.pages | where_exp: "item","item.homepage>0" | where_exp: "item", "item.navigation>''" | sort: 'homepage', 'last' %}
             {% for item in sections %}
             	<li>
-                    <a class="page-scroll" href="#{% if item.slug %}{{ item.slug }}{% else %}{{ item.name | slugify }}{% endif %}">{{ item.navigation }}</a>
+                    <a class="page-scroll" href="#{{ item.navigation | slugify }}">{{ item.navigation }}</a>
                 </li>            
             {% endfor %}
             </ul>

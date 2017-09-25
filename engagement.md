@@ -1,9 +1,9 @@
 ---
 layout: default
-homepage: 5
-slug: public
+homepage: 9
+hash: engagement
 navigation: Engagement
-title: Third Google Web Fonts and<br>Font Awesome Icons
+title: Public Engagement Activities
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+dpa is a trusted service provider for many public-facing media and non-media companies. Our customers do engage with their public in various ways, but our relationship is only to them. Please read more on 

@@ -1,9 +1,9 @@
 ---
 layout: default
 homepage: 3
-slug: diversity
+hash: diversity
 navigation: Diversity
 title: Diversity Policy
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+This space is reserved for the English translation of our diversity policy. While this is in process of being made ready for publication, please head to the [career section](https://www.dpa.com/de/karriere/) of our corporate website. It is currently available in German only.

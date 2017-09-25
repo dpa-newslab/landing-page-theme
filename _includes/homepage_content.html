@@ -4,13 +4,13 @@
 {% for item in sections %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-    <div class="content-section-b" id="{% if item.slug %}{{ item.slug }}{% else %}{{ item.name | slugify }}{% endif %}">
+    <div class="content-section-b" id="{{ item.navigation | slugify }}">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                    <h2 class="section-heading">{{ item.title }}</h2>
+                    <h2 class="section-heading"><a href="#{{ item.navigation | slugify}}">{{ item.title }}</a></h2>
                     {% if item.img %}<img class="img-responsive" src="img/{{ item.img }}" alt="">{% endif %}
                     <!-- <img class="img-responsive" src="img/services/{{ post.img }}" alt=""> -->
                 </div>
@@ -18,7 +18,7 @@
                     <!-- <hr class="section-heading-spacer"> -->
                     <br/>
                     <div class="clearfix"></div>
-                    <div class="lead">{{ item.content }}</div>
+                    <div class="lead">{{ item.content | markdownify }}</div>
                 </div>
             </div>
 
@@ -29,20 +29,20 @@
     <!-- /.content-section-a -->
     {% else %}
 
-    <div class="content-section-a" id="{% if item.slug %}{{ item.slug }}{% else %}{{ item.name | slugify }}{% endif %}">
+    <div class="content-section-a" id="{{ item.navigation | slugify }}">
 
         <div class="container">
 
-            <div class="row">
+            <div class="row" >
                 <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-lg-push-5 col-sm-push-6">
-                  <h2 class="section-heading">{{ item.title }}</h2>
+                  <h2 class="section-heading"><a href="#{{ item.navigation | slugify}}">{{ item.title }}</a></h2>
                   {% if item.img %}<img class="img-responsive" src="img/{{ item.img }}" alt="">{% endif %}
                 </div>
                 <div class="col-lg-5 col-sm-6 col-lg-pull-5 col-sm-pull-6">
                     <!-- <hr class="section-heading-spacer"> -->
                     <br/>
                     <div class="clearfix"></div>
-                    <div class="lead">{{ item.content }}</div>
+                    <div class="lead">{{ item.content | markdownify }}</div>
                 </div>
             </div>
 

@@ -1,11 +1,13 @@
 ---
 layout: default
-homepage: 2
+homepage: 5
 slug: second
-navigation: Second
-title: Second 3D Device Mockups<br>by PSDCovers
+navigation: Ownership
+title: Ownership Structure, Funding and Grants
 description: |
 ---
-  Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by [PSDCovers](http://www.psdcovers.com/)! Visit
-  their website to download some of their awesome, free photoshop actions!
+
+
+Ownership Structure, Funding and Grants
+
+
