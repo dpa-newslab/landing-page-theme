@@ -6,4 +6,5 @@ navigation: Engagement
 title: Public Engagement Activities
 description: |
 ---
-dpa is a trusted service provider for many public-facing media and non-media companies. Our customers do engage with their public in various ways, but our relationship is only to them. Please read more on 
+
+As a matter of policy, dpa does not persue public engagement activities. We are a trusted service provider for public-facing media and non-media customers. Public engangement is our customer's role if they so choose. 
